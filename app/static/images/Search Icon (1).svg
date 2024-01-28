@@ -1,0 +1,18 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Search Icon">
+<g id="Group">
+<path id="Vector" d="M21 38C30.389 38 38 30.389 38 21C38 11.611 30.389 4 21 4C11.611 4 4 11.611 4 21C4 30.389 11.611 38 21 38Z" stroke="url(#paint0_linear_151_65)" stroke-width="4" stroke-linejoin="round"/>
+<path id="Vector_2" d="M26.657 14.343C25.9149 13.599 25.0331 13.0091 24.0623 12.607C23.0915 12.2049 22.0508 11.9986 21 12C19.9492 11.9986 18.9085 12.2049 17.9377 12.607C16.9668 13.0091 16.0851 13.599 15.343 14.343M33.222 33.222L41.707 41.707" stroke="url(#paint1_linear_151_65)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_151_65" x1="9.95204" y1="4" x2="41.5619" y2="4" gradientUnits="userSpaceOnUse">
+<stop offset="0.155" stop-color="#FF7AF2"/>
+<stop offset="0.529" stop-color="#95FEC8"/>
+</linearGradient>
+<linearGradient id="paint1_linear_151_65" x1="19.9583" y1="12" x2="44.4689" y2="12" gradientUnits="userSpaceOnUse">
+<stop offset="0.155" stop-color="#FF7AF2"/>
+<stop offset="0.529" stop-color="#95FEC8"/>
+</linearGradient>
+</defs>
+</svg>

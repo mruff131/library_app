@@ -1,0 +1,352 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Galada:regular);
+@import url(https://fonts.googleapis.com/css?family=Expletus+Sans:regular,500,600,700,italic,500italic,600italic,700italic);
+html, body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+header {
+    background-color: #ffffff00;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    padding-top: 0;
+    max-height: 200px;
+}
+
+.navbar-brand {
+    text-align: center;
+    font-family: 'Galada', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--Linear, linear-gradient(90deg, #FF7AF2 31.92%, #95FEC8 66.69%));    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.navbar-icons {
+    display: flex; /* Ensure icons are displayed side by side */
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.navbar-icons img {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
+.searchbar {
+    padding-bottom: 50px;
+}
+
+#searchInput {
+
+    border-radius: 35px;
+    background: rgba(226, 226, 226, 0.27);
+    border-color: rgba(226, 226, 226, 0.27);
+    width: 418px;
+    height: 68px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.29);
+    font-family: "Comfortaa", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-left: 30px;
+    background-image: url(/static/images/Search\ Icon\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+
+    
+}
+
+#searchInput::placeholder {
+    padding-left: 50px;
+}
+
+#searchInput:focus {
+    border-color: rgba(226, 226, 226, 0.27);
+}
+
+
+#searchInput::placeholder {
+    color: rgba(53, 53, 53, 0.27);
+}
+
+.up {
+    margin-bottom: 1000px;
+}
+
+
+
+
+.home-txt {
+    font-family: 'Galada', sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+.home-links a {
+    text-decoration: none;
+    padding-right: 800px;
+}
+
+.home-links a:hover {
+    color:  #FF7AF2;
+}
+
+
+.box {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.backgroundimg img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    /* object-fit: cover; */
+    display: flex;
+}
+/* 
+.background { */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    object-fit: cover;
+    display: flex; */
+ 
+
+
+
+
+
+
+
+
+
+
+.word-container {
+    text-align: right;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--Linear, linear-gradient(90deg, #FF7AF2 31.92%, #95FEC8 66.69%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.profile {
+    color: white;
+}
+/* main tile css */
+
+h1 {
+    color: white;
+}
+
+
+
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    flex-grow: 1;
+    background-color: #b7b1d7;
+}
+
+.book-header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background: transparent;
+    align-items: flex-end;
+    
+}
+
+.main-tile-dimension {
+    width: 100%;
+    background-color: #b7b1d7;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+/* keep things from having errors when our screen shrinks i.e mobile device */
+.image-container-book {
+    height: 550px;
+}
+
+.image-container-book img {
+    width: 700px; /* Set a fixed width */
+    height: 490px; /* Set a fixed height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+
+.log {
+    font-size: 60px;
+    align-items: center;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.log-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+fieldset {
+    border: 0;
+}
+
+.word-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin: 0;
+    max-height: 130;
+    max-width: 280px;
+}
+
+.form.custom-form {
+    padding-top: 100px;
+}
+
+input#email.form-control {
+    border: 0;
+ 
+}
+
+input#password.form-control {
+    border: 0;
+    padding-top: 30px;
+}
+
+.hold {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+/* FINALLY!!!!! */
+
+input#email.form-control::placeholder,
+input#password.form-control::placeholder {
+    color: grey;
+    font-size: 20px;
+}
+
+#email, #password {
+    border: 0;
+    padding-top: 10px; 
+    border-bottom: 1px;  
+}
+
+#email-field, #password-field {
+    padding: 0;
+}
+
+#pass-field {
+    padding: 0;
+}
+
+
+
+
+form {
+    padding-top: 50px;
+}
+
+
+.with-border {
+    border-bottom: 1px solid #ccc; /* Grey border color */
+    padding-bottom: 10px; /* Adjust padding as needed */
+    margin-bottom: 15px; /* Adjust margin as needed */
+}
+
+.form-group::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #ccc; /* Grey border color */
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+.shift {
+    padding-top: 40px;
+}
+
+#submit_button {
+    border-radius: 35px;
+    padding: 10;
+    background-color: #ff7af2;
+    border-color: transparent;
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+
+/* Add hover effect to the submit button */
+.sub_button {
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.sub_button:hover {
+    background-color: #95FEC8 !important;
+    color: #fff !important;
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+
+<section style="background-image: url('/static/images/curlyhead2.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    height: 100vh;">
+
+    {% extends 'base.html' %}
+    {% block content %}
+    <div class="box">
+        <div class="home-links homechild">
+            <div class="nav-home"><a href="{{ url_for('auth.signup')}}" class="home-txt">Sign Up</a></div>
+            <div class="nav-home"><a href="{{ url_for('auth.signin')}}" class="home-txt">Sign In</a></div>
+            <div class="nav-home"><a href= "{{ url_for('site.profile')}}" class="home-txt">Profile</a></div>
+        </div>
+       <div class="word-container">
+            <span>Escape</span>
+            <span>Reality,</span>
+            <span>Dive</span>
+            <span>In.</span>
+       </div>
+    </div>
+</section>
+
+<section class="book-tile">
+    <div class="colors"></div>
+        <div class="main-tile-dimension">
+            <div class="book">
+                <div class="image-container-book">
+                    <a href="https://blog.reedsy.com/book-genres/">
+                    <img src="/static/images/genres.jpg" alt="laptop and books">
+                    </a>
+                </div>
+                <div class="book-name">
+                    <h1>Genres</h1>
+                </div>
+            </div>
+
+            <div class="book">
+                <div class="image-container-book">
+                    <a href="https://mczellbookwriting.com/blog/top-famous-authors/">
+                    <img src="/static/images/authors.jpg" alt="woman holding book">
+                    </a>
+                </div>
+                <div class="book-name">
+                    <h1>Popular Authors</h1>
+                </div>
+            </div>
+
+            <div class="book">
+
+                <div class="image-container-book">
+                    <a href="https://www.barnesandnoble.com/b/books/_/N-1sZ29Z8q8">
+                    <img src="/static/images/newarrivals.jpg" alt="new books">
+                    </a>
+                </div>
+                <div class="book-name">
+                    <h1>New Arrivals</h1>
+                </div>
+            </div>
+
+          
+        </div> 
+</section>
+
+{% endblock %}
